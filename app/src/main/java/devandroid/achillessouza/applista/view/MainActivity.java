@@ -3,6 +3,7 @@ package devandroid.achillessouza.applista.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import devandroid.achillessouza.applista.R;
 import devandroid.achillessouza.applista.model.Pessoa;
@@ -34,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         outraPessoa.setCursoDesejado(" Java ");
         outraPessoa.setTelefoneContato("92-999999999");
 
-        dadosPessoa = " Primeiro nome: ";
+    /*    dadosPessoa = " Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
         dadosPessoa += " Sobrenome: ";
         dadosPessoa += pessoa.getSobreNome();
@@ -42,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
         dadosPessoa += pessoa.getCursoDesejado();
         dadosPessoa += " Telefone de Contato: ";
         dadosPessoa += pessoa.getTelefoneContato();
+*/
 
-
-        int parada = 0;
+        Log.i("POOAndroid",pessoa.toString());
+        Log.i("POOAndroid",outraPessoa.toString());Log.i("POOAndroid",pessoa.toString());
 
 
     }
