@@ -1,4 +1,4 @@
 package devandroid.achillessouza.applista.model;
 
-public class Curso {
+public class Pessoa {
 }
